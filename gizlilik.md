@@ -4,7 +4,7 @@ title: Gizlilik Politikası ve KVKK Aydınlatma Metni
 
 # Anluvo — Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-Son güncelleme: 23 Kasım 2026
+Son güncelleme: 24 Kasım 2026
 
 Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 10. maddesi kapsamında aydınlatma
 metni ve Anluvo uygulamasının gizlilik politikasıdır.
@@ -55,13 +55,14 @@ Hatırlatma bildirimleri telefonunda kurulur.
 | **Anlatım metni**, aktif dostlarının adları (ve uygulama içi numaraları), kullandığın etiketlerin adları, bugünün tarihi | Anlatımdan anları, notları, planları ve diğer kayıtları çıkarıp sana onay kartı olarak göstermek | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB — İrlanda) üzerinden yapay zekâ sağlayıcısı Anthropic'e (ABD). Sunucumuz metni ve adları **saklamaz ve kayda geçirmez**. |
 | **Anonim kullanıcı kimliği** (rastgele üretilen numara) | Aboneliği ve yapay zekâ kullanım sınırlarını bu cihaza bağlamak | Sözleşmenin ifası (m. 5/2-c) | Supabase (AB), RevenueCat (ABD) |
 | **Kullanım kayıtları:** her sesle anlat isteğinin zamanı, kullanılan model, işlenen metin uzunluğu (token sayısı), tahmini maliyet, sonuç türü, çıkarılan kayıt sayısı | Kota ve adil kullanım sınırı, kötüye kullanımı önleme, maliyet takibi | Meşru menfaat (m. 5/2-f) | Supabase (AB) |
-| **İlişki koçu:** mesajların, son mesajların geçmişi, telefonunda üretilen özet (dost adları, ilişki türü ve yakınlığı, son görüşme, görüşme sıklığı ve genel his — sayı olarak değil, anlamıyla —, İlişki Karnesi türü, doğum gününe kalan gün, yaklaşan planların başlığı ve tarihi) | Sana ilişkilerin hakkında öneride bulunmak | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB) üzerinden Anthropic'e (ABD). Saklanmaz, kayda geçirilmez. Ayrı onayla açılır. |
+| **İlişki koçu ve Premium karne yorumu:** mesajların, son mesajların geçmişi, telefonunda üretilen özet (dost adları, ilişki türü ve yakınlığı, son görüşme, görüşme sıklığı ve genel his — sayı olarak değil, anlamıyla —, İlişki Karnesi türü, yorum oluşturulurken ve koçla tartışılırken seçilen kişinin boyut puanları, yakınlık ve romantik çerçeve bulguları, güvenlik işareti, değişimler ve kayıtlı anların toplu temaları ve eğilimleri, tartışırken okunan yorum, doğum gününe kalan gün, yaklaşan planların başlığı ve tarihi) | Sana ilişkilerin hakkında öneride bulunmak | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB) üzerinden Anthropic'e (ABD). Saklanmaz, kayda geçirilmez. Ayrı onayla açılır. |
+| **Bildirdiğin yapay zekâ içeriği:** "Bildir"e bastığın koç yanıtının, karne yorumunun ya da sesle anlat kartının metni, seçtiğin neden, uygulama dili, zaman ve anonim kimliğin (metin dost adı içerebilir) | Uygunsuz, zararlı ya da yanlış yapay zekâ çıktısını incelemek ve düzeltmek | Meşru menfaat (m. 5/2-f); yalnız sen bildirince gönderilir | Supabase (AB); inceleme için geliştiriciye e-posta (Resend, ABD) |
 | **Abonelik bilgisi:** Premium durumu, plan, mağaza, deneme ve bitiş tarihi, satın alma kayıtları | Premium'u açmak, deneme hatırlatması, geri yükleme | Sözleşmenin ifası (m. 5/2-c) | RevenueCat (ABD), Supabase (AB) |
 | **Ödeme bilgisi** | Satın alma | — | Yalnız Apple App Store ya da Google Play işler. Kart bilgin bize ve RevenueCat'e gelmez. |
 | **Teknik kayıtlar:** IP adresi, istek zamanı, cihaz ve uygulama sürümü | Hizmetin güvenliği ve çalışması | Meşru menfaat (m. 5/2-f) | Hizmet sağlayıcılarımızın (Supabase, RevenueCat) güvenlik kayıtlarında, kendi saklama sürelerince |
 
-Bu veriler yalnız tabloda yazan amaçlarla işlenir. Anlatımların ve dostlarının adları hiçbir yerde
-saklanmaz; yapay zekâ modeli eğitmek, test etmek ya da ürünü geliştirmek için kullanılmaz.
+Bu veriler yalnız tabloda yazan amaçlarla işlenir. Anlatımların ve dostlarının adları, senin
+bildirdiğin bir içerik dışında, hiçbir yerde saklanmaz; yapay zekâ modeli eğitmek, test etmek ya da ürünü geliştirmek için kullanılmaz.
 
 ## 5. Dostlarının bilgileri
 
@@ -88,6 +89,8 @@ vermezsen sesle anlat çalışmaz, uygulamanın geri kalanı aynen çalışır. 
   Anthropic, ticari koşulları gereği API verilerini model eğitiminde kullanmaz ve güvenlik amacıyla sınırlı
   bir süre (en fazla 30 gün) saklayabilir; kullanım politikası ihlali şüphesiyle işaretlenen içerikler daha
   uzun tutulabilir.
+- **Bildirdiğin içerik:** incelendikten sonra en fazla 1 yıl; silinmesini istersen bölüm 8'deki yoldan
+  başvurabilirsin.
 - **Kullanım kayıtları ve abonelik bilgisi:** hizmet sürdükçe; silinmesini istersen bölüm 8'deki yoldan
   başvurabilirsin. Mağazanın satın alma kayıtları Apple ve Google'ın kendi sürelerince tutulur.
 
@@ -116,6 +119,7 @@ Uygulama 18 yaşından küçükler için tasarlanmamıştır ve 18 yaşından k�
 | Supabase | Sunucu, anonim oturum, kullanım ve abonelik kayıtları | AB (İrlanda) | supabase.com/privacy |
 | Anthropic | Anlatımdan kayıt çıkarma (yapay zekâ) | ABD | anthropic.com/legal/privacy |
 | RevenueCat | Abonelik durumu ve geri yükleme | ABD | revenuecat.com/privacy |
+| Resend | Bildirilen yapay zekâ içeriğini ve sistem uyarılarını geliştiriciye e-postayla iletmek | ABD | resend.com/legal/privacy-policy |
 | Apple App Store | Ödeme, iOS konuşma tanıma (cihazda değilse) | — | apple.com/legal/privacy |
 | Google Play / Google hesabı | Ödeme, Android konuşma tanıma (cihazda değilse), telefon yedeği (açıksa) | — | policies.google.com/privacy |
 
