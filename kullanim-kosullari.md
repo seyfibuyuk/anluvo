@@ -4,12 +4,12 @@ title: Kullanım Koşulları
 
 # Anluvo — Kullanım Koşulları
 
-Son güncelleme: 23 Kasım 2026
+Son güncelleme: 25 Kasım 2026
 
 ## 1. Taraflar ve kapsam
 
 Bu koşullar, Anluvo uygulamasını kullanan sen ile uygulamayı sunan **Seyko Studio**
-(adres: Gaziosmanpaşa Mahallesi, İlkbahar Sokak No: 9, Merkez / Yalova, e-posta: info@ghoso.app) arasındadır. Uygulamayı kullanarak bu koşulları ve
+(adres: Gaziosmanpaşa Mahallesi, İlkbahar Sokak, Merkez / Yalova, e-posta: info@ghoso.app) arasındadır. Uygulamayı kullanarak bu koşulları ve
 [Gizlilik Politikası](gizlilik)'nı kabul etmiş olursun. iOS'ta Apple'ın standart son kullanıcı sözleşmesi
 (EULA) de geçerlidir; çelişki olursa tüketici olarak senin lehine olan hüküm uygulanır.
 

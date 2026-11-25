@@ -4,7 +4,7 @@ title: Gizlilik Politikası ve KVKK Aydınlatma Metni
 
 # Anluvo — Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-Son güncelleme: 24 Kasım 2026
+Son güncelleme: 25 Kasım 2026
 
 Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 10. maddesi kapsamında aydınlatma
 metni ve Anluvo uygulamasının gizlilik politikasıdır.
@@ -12,7 +12,7 @@ metni ve Anluvo uygulamasının gizlilik politikasıdır.
 ## 1. Veri sorumlusu
 
 - **Veri sorumlusu:** Seyko Studio
-- **Adres:** Gaziosmanpaşa Mahallesi, İlkbahar Sokak No: 9, Merkez / Yalova
+- **Adres:** Gaziosmanpaşa Mahallesi, İlkbahar Sokak, Merkez / Yalova
 - **E-posta (KVKK başvuruları dahil):** info@ghoso.app
 
 ## 2. Kısaca
@@ -21,12 +21,17 @@ metni ve Anluvo uygulamasının gizlilik politikasıdır.
   **yalnız telefonunda** durur. Bizim sunucumuza gelmez.
 - Hesap açman gerekmez. Ad, e-posta, telefon numarası istemeyiz.
 - **Sesle anlat** özelliğini kullanırsan, anlattığın şeyin yazıya çevrilmiş metni ve dostlarının adları
-  anları çıkarmak için sunucumuza ve yapay zekâ sağlayıcımıza gönderilir; **saklanmaz**.
+  anları çıkarmak için sunucumuza ve yapay zekâ sağlayıcımıza (Anthropic) gönderilir; sunucumuzda **saklanmaz**.
 - **İlişki koçu** (Premium) ile konuşursan, mesajların ve telefonunda hazırlanan kısa bir özet (dostlarının
   adları, son görüşme zamanları, görüşme sıklığı, genelde sana nasıl geldikleri, İlişki Karnesi türleri, yaklaşan planlar)
-  aynı yoldan gönderilir; **saklanmaz**. Anlarının ve notlarının metni gönderilmez. Sohbet geçmişi telefonunda kalır.
+  aynı yoldan gönderilir; **saklanmaz**. Anlarının metni varsayılan olarak gönderilmez; yalnız sen izin verirsen
+  (Ayarlar > Anlu ya da Anlu sorduğunda) konuşulan kişiyle son 20 anın ve o kişiye yazdığın not gider. Kendine
+  yazdığın kişisel notlar hiçbir zaman gönderilmez. İstersen Ayarlar > Anlu > "Hakkımda" alanına kendinden bahsedebilirsin;
+  doluysa bu metin de Anlu'ya gönderilir. Sohbet geçmişi telefonunda kalır.
 - Reklam yok, analitik ya da izleme aracı yok. Verini satmayız, başkalarıyla pazarlama için paylaşmayız.
-- Verilerin yapay zekâ modeli eğitmek için kullanılmaz.
+- Verilerin yapay zekâ modeli eğitmek için kullanılmaz. Yapay zekâ özelliklerini (sesle anlat, koç, karne yorumu)
+  ilk kullandığında **tek bir onay** istenir; onay vermezsen bu özellikler çalışmaz, uygulamanın geri kalanı çalışır.
+- Bir yapay zekâ çıktısını **Bildir** ile bildirirsen o metin şifreli olarak saklanır ve en geç 90 gün sonra silinir.
 
 ## 3. Yalnız telefonunda kalan veriler
 
@@ -54,9 +59,9 @@ Hatırlatma bildirimleri telefonunda kurulur.
 | **Ses → yazı:** sesle anlatırken konuşman | Konuşmanı yazıya çevirmek | Sözleşmenin ifası (KVKK m. 5/2-c) | Telefonun destekliyorsa telefonda işlenir, hiçbir yere gitmez. Desteklemiyorsa telefonunun konuşma tanıma servisi (Google ya da Apple) işler; o servisin kendi gizlilik politikası geçerlidir. Ses kaydı bize gelmez. |
 | **Anlatım metni**, aktif dostlarının adları (ve uygulama içi numaraları), kullandığın etiketlerin adları, bugünün tarihi | Anlatımdan anları, notları, planları ve diğer kayıtları çıkarıp sana onay kartı olarak göstermek | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB — İrlanda) üzerinden yapay zekâ sağlayıcısı Anthropic'e (ABD). Sunucumuz metni ve adları **saklamaz ve kayda geçirmez**. |
 | **Anonim kullanıcı kimliği** (rastgele üretilen numara) | Aboneliği ve yapay zekâ kullanım sınırlarını bu cihaza bağlamak | Sözleşmenin ifası (m. 5/2-c) | Supabase (AB), RevenueCat (ABD) |
-| **Kullanım kayıtları:** her sesle anlat isteğinin zamanı, kullanılan model, işlenen metin uzunluğu (token sayısı), tahmini maliyet, sonuç türü, çıkarılan kayıt sayısı | Kota ve adil kullanım sınırı, kötüye kullanımı önleme, maliyet takibi | Meşru menfaat (m. 5/2-f) | Supabase (AB) |
-| **İlişki koçu ve Premium karne yorumu:** mesajların, son mesajların geçmişi, telefonunda üretilen özet (dost adları, ilişki türü ve yakınlığı, son görüşme, görüşme sıklığı ve genel his — sayı olarak değil, anlamıyla —, İlişki Karnesi türü, yorum oluşturulurken ve koçla tartışılırken seçilen kişinin boyut puanları, yakınlık ve romantik çerçeve bulguları, güvenlik işareti, değişimler ve kayıtlı anların toplu temaları ve eğilimleri, tartışırken okunan yorum, doğum gününe kalan gün, yaklaşan planların başlığı ve tarihi) | Sana ilişkilerin hakkında öneride bulunmak | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB) üzerinden Anthropic'e (ABD). Saklanmaz, kayda geçirilmez. Ayrı onayla açılır. |
-| **Bildirdiğin yapay zekâ içeriği:** "Bildir"e bastığın koç yanıtının, karne yorumunun ya da sesle anlat kartının metni, seçtiğin neden, uygulama dili, zaman ve anonim kimliğin (metin dost adı içerebilir) | Uygunsuz, zararlı ya da yanlış yapay zekâ çıktısını incelemek ve düzeltmek | Meşru menfaat (m. 5/2-f); yalnız sen bildirince gönderilir | Supabase (AB); inceleme için geliştiriciye e-posta (Resend, ABD) |
+| **Kullanım kayıtları:** her yapay zekâ isteğinin zamanı, kullanılan model, işlenen metin uzunluğu (token sayısı), tahmini maliyet, sonuç türü, çıkarılan kayıt sayısı (içerik ve ad içermez) | Kota ve adil kullanım sınırı, kötüye kullanımı önleme, maliyet takibi | Meşru menfaat (m. 5/2-f) | Supabase (AB); en fazla 13 ay |
+| **İlişki koçu ve Premium karne yorumu:** mesajların, son mesajların geçmişi, telefonunda üretilen özet (dost adları, ilişki türü ve yakınlığı, son görüşme, görüşme sıklığı ve genel his — sayı olarak değil, anlamıyla —, İlişki Karnesi türü, yorum oluşturulurken ve koçla tartışılırken seçilen kişinin boyut puanları, yakınlık ve romantik çerçeve bulguları, güvenlik işareti, değişimler ve kayıtlı anların toplu temaları ve eğilimleri, tartışırken okunan yorum, doğum gününe kalan gün, yaklaşan planların başlığı ve tarihi); **isteğe bağlı:** izin verdiysen konuşulan kişiyle son 20 anının metni (tarih, tür, his, açıklama) ve kişi notu, doldurduysan "Hakkımda" metnin. Kişisel notların hiç gönderilmez | Sana ilişkilerin hakkında öneride bulunmak | Sözleşmenin ifası (m. 5/2-c); yurt dışına aktarım için bkz. bölüm 6 | Sunucumuz (Supabase, AB) üzerinden Anthropic'e (ABD). Sunucumuzda saklanmaz, kayda geçirilmez. Tek yapay zekâ onayıyla açılır. |
+| **Bildirdiğin yapay zekâ içeriği:** "Bildir"e bastığın koç yanıtının, karne yorumunun ya da sesle anlat kartının metni, seçtiğin neden, uygulama dili, zaman ve anonim kimliğin (metin dost adı içerebilir) | Uygunsuz, zararlı ya da yanlış yapay zekâ çıktısını incelemek ve düzeltmek | Meşru menfaat (m. 5/2-f); yalnız sen bildirince gönderilir | Supabase (AB), **şifreli** olarak saklanır ve en fazla 90 gün sonra silinir. Geliştiriciye giden e-postada (Resend, ABD) içerik bulunmaz; yalnız kaynak, neden ve zaman yazar. |
 | **Abonelik bilgisi:** Premium durumu, plan, mağaza, deneme ve bitiş tarihi, satın alma kayıtları | Premium'u açmak, deneme hatırlatması, geri yükleme | Sözleşmenin ifası (m. 5/2-c) | RevenueCat (ABD), Supabase (AB) |
 | **Ödeme bilgisi** | Satın alma | — | Yalnız Apple App Store ya da Google Play işler. Kart bilgin bize ve RevenueCat'e gelmez. |
 | **Teknik kayıtlar:** IP adresi, istek zamanı, cihaz ve uygulama sürümü | Hizmetin güvenliği ve çalışması | Meşru menfaat (m. 5/2-f) | Hizmet sağlayıcılarımızın (Supabase, RevenueCat) güvenlik kayıtlarında, kendi saklama sürelerince |
@@ -73,26 +78,33 @@ fotoğraf, doğum günü gibi başka bilgileri gönderilmez. Başkalarına dair 
 
 ## 6. Yurt dışına aktarım
 
-Sesle anlat özelliği ve abonelik altyapısı nedeniyle verilerin Türkiye dışına aktarılır:
+Yapay zekâ özellikleri ve abonelik altyapısı nedeniyle verilerin Türkiye dışına aktarılır:
 
 - **Supabase** (sunucu ve veritabanı): Avrupa Birliği, İrlanda
 - **Anthropic** (yapay zekâ): Amerika Birleşik Devletleri
 - **RevenueCat** (abonelik yönetimi): Amerika Birleşik Devletleri
+- **Resend** (sistem ve bildirim e-postaları; içerik taşımaz): Amerika Birleşik Devletleri
 
-Aktarım KVKK m. 9 kapsamında açık rızana dayanılarak yapılır. Sesle anlatı ilk kullandığında bu aktarım ayrıca sorulur; onay
-vermezsen sesle anlat çalışmaz, uygulamanın geri kalanı aynen çalışır. Onayını Ayarlar'dan geri alabilirsin.
+Aktarım KVKK m. 9 uyarınca standart sözleşme (ilgili sağlayıcılarla imzalanması ve Kişisel Verileri Koruma
+Kurumu'na bildirilmesi süreci devam eder) ve bunların tamamlanmadığı durumlar için açık rızana dayanılarak yapılır. Yapay zekâ
+özelliklerinden birini ilk kullandığında bu rıza, sağlık ve özel hayata dair yazdıklarının işlenmesine ilişkin
+açık rızanla birlikte tek bir onayla sorulur; onay vermezsen yapay zekâ özellikleri çalışmaz, uygulamanın geri
+kalanı aynen çalışır. Onayını Ayarlar'dan geri alabilirsin.
 
 ## 7. Saklama süreleri
 
 - **Telefonundaki veriler:** sen silene kadar.
-- **Anlatım metni ve dostlarının adları:** sunucumuzda saklanmaz; istek işlendikten sonra bellekten silinir.
-  Anthropic, ticari koşulları gereği API verilerini model eğitiminde kullanmaz ve güvenlik amacıyla sınırlı
-  bir süre (en fazla 30 gün) saklayabilir; kullanım politikası ihlali şüphesiyle işaretlenen içerikler daha
-  uzun tutulabilir.
-- **Bildirdiğin içerik:** incelendikten sonra en fazla 1 yıl; silinmesini istersen bölüm 8'deki yoldan
-  başvurabilirsin.
-- **Kullanım kayıtları ve abonelik bilgisi:** hizmet sürdükçe; silinmesini istersen bölüm 8'deki yoldan
-  başvurabilirsin. Mağazanın satın alma kayıtları Apple ve Google'ın kendi sürelerince tutulur.
+- **Anlatım metni, koç mesajları ve dostlarının adları:** sunucumuzda saklanmaz; istek işlendikten sonra
+  bellekten silinir. Anthropic, ticari koşulları gereği API verilerini model eğitiminde kullanmaz ve
+  girdi ile çıktıları genellikle 30 gün içinde siler. Kullanım politikası ihlali şüphesiyle otomatik
+  güvenlik sistemlerince işaretlenen içerikler en fazla 2 yıl tutulabilir.
+- **Bildirdiğin içerik:** şifreli saklanır ve en fazla 90 gün sonra otomatik silinir; daha önce silinmesini
+  istersen bölüm 8'deki yoldan başvurabilirsin.
+- **Kullanım kayıtları:** en fazla 13 ay. Abonelik bilgisi hizmet sürdükçe saklanır. Silinmesini
+  istersen bölüm 8'deki yoldan başvurabilirsin. Mağazanın satın alma kayıtları Apple ve Google'ın kendi
+  sürelerince tutulur.
+- **Sunucudaki veriler:** Supabase'in veritabanı diski AES-256 ile şifrelenir; bağlantılar TLS ile korunur.
+  Bildirilen içerik ayrıca uygulama düzeyinde (AES-256-GCM) şifrelenir.
 
 ## 8. Hakların ve başvuru
 
@@ -119,7 +131,7 @@ Uygulama 18 yaşından küçükler için tasarlanmamıştır ve 18 yaşından k�
 | Supabase | Sunucu, anonim oturum, kullanım ve abonelik kayıtları | AB (İrlanda) | supabase.com/privacy |
 | Anthropic | Anlatımdan kayıt çıkarma (yapay zekâ) | ABD | anthropic.com/legal/privacy |
 | RevenueCat | Abonelik durumu ve geri yükleme | ABD | revenuecat.com/privacy |
-| Resend | Bildirilen yapay zekâ içeriğini ve sistem uyarılarını geliştiriciye e-postayla iletmek | ABD | resend.com/legal/privacy-policy |
+| Resend | Bildirim ve sistem uyarılarını geliştiriciye e-postayla iletmek (içerik taşımaz) | ABD | resend.com/legal/privacy-policy |
 | Apple App Store | Ödeme, iOS konuşma tanıma (cihazda değilse) | — | apple.com/legal/privacy |
 | Google Play / Google hesabı | Ödeme, Android konuşma tanıma (cihazda değilse), telefon yedeği (açıksa) | — | policies.google.com/privacy |
 
