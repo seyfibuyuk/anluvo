@@ -4,7 +4,7 @@ title: Gizlilik Politikası ve KVKK Aydınlatma Metni
 
 # Anluvo — Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-Son güncelleme: 25 Kasım 2026
+Son güncelleme: 26 Kasım 2026
 
 Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 10. maddesi kapsamında aydınlatma
 metni ve Anluvo uygulamasının gizlilik politikasıdır.
@@ -30,7 +30,9 @@ metni ve Anluvo uygulamasının gizlilik politikasıdır.
   doluysa bu metin de Anlu'ya gönderilir. Sohbet geçmişi telefonunda kalır.
 - Reklam yok, analitik ya da izleme aracı yok. Verini satmayız, başkalarıyla pazarlama için paylaşmayız.
 - Verilerin yapay zekâ modeli eğitmek için kullanılmaz. Yapay zekâ özelliklerini (sesle anlat, koç, karne yorumu)
-  ilk kullandığında **tek bir onay** istenir; onay vermezsen bu özellikler çalışmaz, uygulamanın geri kalanı çalışır.
+  kullanabilmek için ayrı bir onay kutusu işaretlenir: Premium satın alırken ödeme ekranında (isteğe bağlı) ya da
+  özelliği ilk kullandığında açılan pencerede. Onay vermezsen yapay zekâ özellikleri çalışmaz; abonelik ve
+  uygulamanın geri kalanı çalışır.
 - Bir yapay zekâ çıktısını **Bildir** ile bildirirsen o metin şifreli olarak saklanır ve en geç 90 gün sonra silinir.
 
 ## 3. Yalnız telefonunda kalan veriler
@@ -86,10 +88,13 @@ Yapay zekâ özellikleri ve abonelik altyapısı nedeniyle verilerin Türkiye d�
 - **Resend** (sistem ve bildirim e-postaları; içerik taşımaz): Amerika Birleşik Devletleri
 
 Aktarım KVKK m. 9 uyarınca standart sözleşme (ilgili sağlayıcılarla imzalanması ve Kişisel Verileri Koruma
-Kurumu'na bildirilmesi süreci devam eder) ve bunların tamamlanmadığı durumlar için açık rızana dayanılarak yapılır. Yapay zekâ
-özelliklerinden birini ilk kullandığında bu rıza, sağlık ve özel hayata dair yazdıklarının işlenmesine ilişkin
-açık rızanla birlikte tek bir onayla sorulur; onay vermezsen yapay zekâ özellikleri çalışmaz, uygulamanın geri
-kalanı aynen çalışır. Onayını Ayarlar'dan geri alabilirsin.
+Kurumu'na bildirilmesi süreci devam eder) ve bunların tamamlanmadığı durumlar için açık rızana dayanılarak yapılır. Bu rıza,
+yazdıklarında yer alabilecek sağlık ve özel hayata dair bilgilerin işlenmesini de kapsar. Rızanı ayrı bir kutuyla
+verirsin: Premium satın alırken ödeme ekranındaki isteğe bağlı kutuyla ya da yapay zekâ özelliğini ilk
+kullandığında açılan pencerede. Kutuyu işaretlemeden de abone olabilir ve uygulamanın geri kalanını
+kullanabilirsin; yalnız yapay zekâ özellikleri çalışmaz. Rızanı istediğin zaman Ayarlar > Premium ayarları
+bölümündeki "Yapay zekâyı kapat" anahtarıyla geri alabilirsin; yapay zekâyı yeniden açarken onayın yeniden
+istenir.
 
 ## 7. Saklama süreleri
 
