@@ -33,6 +33,9 @@ metni ve Anluvo uygulamasının gizlilik politikasıdır.
   kullanabilmek için ayrı bir onay kutusu işaretlenir: Premium satın alırken ödeme ekranında (isteğe bağlı) ya da
   özelliği ilk kullandığında açılan pencerede. Onay vermezsen yapay zekâ özellikleri çalışmaz; abonelik ve
   uygulamanın geri kalanı çalışır.
+- Yapay zekâ servisine giden isteklerde hesap kimliğin, cihaz kimliğin, e-postan ya da telefon numaran bulunmaz;
+  istekler sunucumuz üzerinden gittiği için IP adresin de servise ulaşmaz. Gönderilen metin kişi adları ve özel
+  hayatına dair bilgiler içerebileceği için anonim sayılmaz; hesabınla ilişkilendirilmeden işlenir.
 - Bir yapay zekâ çıktısını **Bildir** ile bildirirsen o metin şifreli olarak saklanır ve en geç 90 gün sonra silinir.
 
 ## 3. Yalnız telefonunda kalan veriler
