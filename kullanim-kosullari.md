@@ -9,7 +9,7 @@ Son güncelleme: 25 Kasım 2026
 ## 1. Taraflar ve kapsam
 
 Bu koşullar, Anluvo uygulamasını kullanan sen ile uygulamayı sunan **Seyko Studio**
-(adres: Gaziosmanpaşa Mahallesi, İlkbahar Sokak, Merkez / Yalova, e-posta: info@ghoso.app) arasındadır. Uygulamayı kullanarak bu koşulları ve
+(adres: Gaziosmanpaşa Mahallesi, İlkbahar Sokak, Merkez / Yalova, e-posta: anluvo.app@gmail.com) arasındadır. Uygulamayı kullanarak bu koşulları ve
 [Gizlilik Politikası](gizlilik)'nı kabul etmiş olursun. iOS'ta Apple'ın standart son kullanıcı sözleşmesi
 (EULA) de geçerlidir; çelişki olursa tüketici olarak senin lehine olan hüküm uygulanır.
 
@@ -81,7 +81,7 @@ olarak durdurabiliriz:
 - Yasal zorunluluk ya da yetkili makam talebi
 
 Mümkünse önceden, değilse sonradan sebebini bildiririz. Telefonundaki kayıtların bu durumdan etkilenmez;
-onlara erişmeye ve yedek almaya devam edersin. Haksız bir durdurmaya info@ghoso.app adresinden itiraz edebilirsin.
+onlara erişmeye ve yedek almaya devam edersin. Haksız bir durdurmaya anluvo.app@gmail.com adresinden itiraz edebilirsin.
 
 ## 8. Verilerin ve yedeklerin
 
@@ -108,4 +108,4 @@ başvurabilirsin.
 
 ## 12. İletişim
 
-Soruların ve başvuruların için: **info@ghoso.app**
+Soruların ve başvuruların için: **anluvo.app@gmail.com**

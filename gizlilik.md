@@ -13,7 +13,7 @@ metni ve Anluvo uygulamasının gizlilik politikasıdır.
 
 - **Veri sorumlusu:** Seyko Studio
 - **Adres:** Gaziosmanpaşa Mahallesi, İlkbahar Sokak, Merkez / Yalova
-- **E-posta (KVKK başvuruları dahil):** info@ghoso.app
+- **E-posta (KVKK başvuruları dahil):** anluvo.app@gmail.com
 
 ## 2. Kısaca
 
@@ -122,10 +122,27 @@ düzeltilmesini, silinmesini ya da yok edilmesini isteme, bunların aktarıldı�
 isteme, otomatik sistemlerle analiz sonucu aleyhine bir sonuç çıkmasına itiraz etme ve kanuna aykırı işleme
 nedeniyle zarara uğradıysan giderilmesini isteme haklarına sahipsin.
 
-Başvurunu **info@ghoso.app** adresine gönderebilirsin. Hesap olmadığı için seni tanıyabilmemiz adına başvuruna
+Başvurunu **anluvo.app@gmail.com** adresine gönderebilirsin. Hesap olmadığı için seni tanıyabilmemiz adına başvuruna
 uygulamadaki **Ayarlar → Hakkında** bölümünde görünen kullanıcı kimliğini eklemeni rica ederiz.
 Başvurunu en geç 30 gün içinde ücretsiz yanıtlarız.
 Telefonundaki verilere biz erişemeyiz; onları uygulamadan sen silebilirsin.
+
+### Verilerini silme {#veri-silme}
+
+Hesap açmana gerek olmadığı için silme işlemi uygulamanın içinden, başvuru beklemeden yapılır:
+
+1. Uygulamada **Ayarlar → Gizlilik ve veriler** bölümünü aç.
+2. **Tüm verilerimi sil** düğmesine dokun ve onayla.
+
+Bu işlem tek seferde şunları siler: telefonundaki bütün kayıtlar (kişiler, anlar, notlar, planlar,
+fotoğraflar, sesli notlar, Anlu sohbet geçmişi); sunucumuzdaki kullanım kayıtların, bildirdiğin yapay zekâ
+içerikleri, abonelik durumu kaydın ve anonim kullanıcı kimliğin. Silme için internet bağlantısı gerekir;
+sunucuya ulaşılamazsa hiçbir şey silinmez ve tekrar denemen istenir.
+
+Silinmeyenler: Apple, Google ve ödeme altyapımız RevenueCat'in yasal saklama yükümlülüğü gereği tuttuğu
+satın alma kayıtları (bölüm 7). Premium aboneliğin mağazada sürer; iptal etmek için mağazanın abonelik
+sayfasını kullan. Uygulamayı silmek yalnız telefondaki verileri siler; sunucudaki kayıtlar için yukarıdaki
+düğmeyi kullan ya da kullanıcı kimliğinle yukarıdaki adrese yaz.
 
 ## 9. Çocuklar
 
